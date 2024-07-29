@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+nav li:hover {
+    background-color: #555; 
+    
+}
+nav li:hover a {
+    color: #940065; 
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.firstcontainer {
+    height: 80px;;
+    color: #fff;
+    text-align: center;
+    
+    background-color: #691b6a;
+    
+    padding-bottom: 38px;
+    padding-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.firsttitle {
+    color: #000000;
+}
+.secondcontainer {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* tale action*/
+.thirdcontainer {
+    text-align: center; 
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+
+.image {
+    float: left;
+    margin-right: 16px;
+}
+
+.image img {
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.subtitle {
+    color: #691b6a;
+}
+
+p {
+    line-height: 2;
+   
+}
+.para {
+    text-align: left;
+    font-size: 16px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #75036a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+}
+
+.button:hover {
+    background-color: #d607be;
+}
+.paragraph {
+    font-size: 20px;
+}
+/* conatct us */
+
+.fourthcontainer {
+    background-color: #f2f2f2; 
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-title h2 {
+    color: #333; 
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon img {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.social-icon span {
+    color: #555; 
+}

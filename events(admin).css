@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li form {
+    display: inline;
+    margin-right: 10px;
+}
+
+li button {
+    background-color: #d9534f;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}
+
+/* Update Event Form */
+#updateForm {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#updateForm label,
+#updateForm input,
+#updateForm textarea,
+#updateForm select {
+    margin-bottom: 10px;
+}
+
+#updateForm button {
+    background-color: #337ab7;
+}
+
+#updateForm button:hover {
+    background-color: #286090;
+}
